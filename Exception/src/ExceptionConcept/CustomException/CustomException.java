@@ -1,0 +1,18 @@
+package ExceptionConcept.CustomException;
+
+public class CustomException extends Exception {
+	
+	String message;
+	
+	public CustomException(String str) {
+      message=str;
+	}
+	
+	public String toString() {
+		
+		
+		return ("customer Exception occurred: "+ message);
+		
+	}
+
+}
